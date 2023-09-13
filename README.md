@@ -1,2 +1,3 @@
-# neh-assessment
-Assessment for the NEH's Humanities Data Scientist role
+# NEH awards to HBCUs
+
+Using open data from <Data.gov>, this notebook studies the history of the National Endowment for the Humanities' grantmaking to historically Black colleges and universities between 1965 and the present.
