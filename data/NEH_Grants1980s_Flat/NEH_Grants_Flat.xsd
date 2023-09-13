@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Grants">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Grant" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplicantType" type="xs:string"/>
+							<xs:element name="Institution" type="xs:string"/>
+							<xs:element name="OrganizationType" type="xs:string"/>
+							<xs:element name="InstCity" type="xs:string"/>
+							<xs:element name="InstState" type="xs:string"/>
+							<xs:element name="InstPostalCode" type="xs:string"/>
+							<xs:element name="InstCountry" type="xs:string"/>
+							<xs:element name="CongressionalDistrict" type="xs:unsignedShort"/>
+							<xs:element name="Latitude" type="xs:string"/>
+							<xs:element name="Longitude" type="xs:string"/>
+							<xs:element name="CouncilDate" type="xs:date"/>
+							<xs:element name="YearAwarded" type="xs:unsignedShort"/>
+							<xs:element name="ProjectTitle" type="xs:string"/>
+							<xs:element name="Program" type="xs:string"/>
+							<xs:element name="Division" type="xs:string"/>
+							<xs:element name="ApprovedOutright" type="xs:decimal"/>
+							<xs:element name="ApprovedMatching" type="xs:decimal"/>
+							<xs:element name="AwardOutright" type="xs:decimal"/>
+							<xs:element name="AwardMatching" type="xs:decimal"/>
+							<xs:element name="OriginalAmount" type="xs:decimal"/>
+							<xs:element name="SupplementAmount" type="xs:decimal"/>
+							<xs:element name="BeginGrant" type="xs:date"/>
+							<xs:element name="EndGrant" type="xs:date"/>
+							<xs:element name="ProjectDesc" type="xs:string"/>
+							<xs:element name="ToSupport" type="xs:string"/>
+							<xs:element name="PrimaryDiscipline" type="xs:string"/>
+							<xs:element name="SupplementCount" type="xs:unsignedByte"/>
+							<xs:element name="Supplements" type="xs:string" minOccurs="0"/>
+							<xs:element name="ParticipantCount" type="xs:unsignedByte"/>
+							<xs:element name="Participants" type="xs:string" minOccurs="0"/>
+							<xs:element name="DisciplineCount" type="xs:unsignedByte"/>
+							<xs:element name="Disciplines" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="AppNumber" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

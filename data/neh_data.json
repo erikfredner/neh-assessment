@@ -1,0 +1,2909 @@
+{
+	"conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+	"describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+	"@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+	"@type": "dcat:Catalog",
+	"dataset": [
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH peer-review evaluators, 1970-present",
+			"identifier": "neh-evaluators",
+			"description": "Peer reviewers used by the National Endowment for the Humanities, 1970-present",
+			"issued": "2015-02-20",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_EvaluatorsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Evaluators.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH evaluators",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_EvaluatorsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH peer-review evaluators, 1970-present (CSV)",
+			"identifier": "neh-evaluators-csv",
+			"description": "Peer reviewers used by the National Endowment for the Humanities, 1970-present (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1965-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Evaluators.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH evaluators (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_EvaluatorsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2020-2029",
+			"identifier": "neh-grants-2020s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2020-2029",
+			"issued": "2019-12-02",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "2019-10-01T12:00:00Z/2029-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2020s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 2020-2029",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2020-2029 (flattened)",
+			"identifier": "neh-grants-2020s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2020-2029 (flattened)",
+			"issued": "2019-12-02",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "2019-10-01T12:00:00Z/2029-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2020s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 2020-2029 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2020-2029 (CSV)",
+			"identifier": "neh-grants-2020s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2020-2029 (CSV)",
+			"issued": "2019-12-02",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "2019-10-01T12:00:00Z/2029-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2020s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 2020-2029 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2010-2019",
+			"identifier": "neh-grants-2010s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2010-2019",
+			"issued": "2015-02-20",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "2009-10-01T12:00:00Z/2019-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2010s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 2010s",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2010-2019 (flattened)",
+			"identifier": "neh-grants-2010s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2010-2019 (flattened)",
+			"issued": "2017-04-12",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "2009-10-01T12:00:00Z/2019-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2010s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 2010-2019 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2010-2019 (CSV)",
+			"identifier": "neh-grants-2010s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2010-2019 (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2023-09-06",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "2009-10-01T12:00:00Z/2019-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2010s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 2010-2019 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2000-2009",
+			"identifier": "neh-grants-2000s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2000-2009",
+			"issued": "2015-02-20",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1999-10-01T12:00:00Z/2009-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2000s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 2000s",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2000-2009 (flattened)",
+			"identifier": "neh-grants-2000s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2000-2009 (flattened)",
+			"issued": "2017-04-20",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1999-10-01T12:00:00Z/2009-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2000s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 2000-2009 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 2000-2009 (CSV)",
+			"identifier": "neh-grants-2000s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 2000-2009 (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1999-10-01T12:00:00Z/2009-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants2000s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 2000-2009 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1990-1999",
+			"identifier": "neh-grants-1990s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1990-1999",
+			"issued": "2015-02-20",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1989-10-01T12:00:00Z/1999-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1990s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "XML",
+					"title": "NEH grants, 1990s",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1990-1999 (flattened)",
+			"identifier": "neh-grants-1990s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1990-1999 (flattened)",
+			"issued": "2017-04-12",
+			"language": [
+				"en-US"
+			],
+			"modified": "2022-06-09",
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1989-10-01T12:00:00Z/1999-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1990s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 1990-1999 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1990-1999 (CSV)",
+			"identifier": "neh-gGrants-1990s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1990-1999 (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1989-10-01T12:00:00Z/1999-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1990s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 1990-1999 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1980-1989",
+			"identifier": "neh-grants-1980s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1980-1989",
+			"issued": "2015-02-20",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1979-10-01T12:00:00Z/1989-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1980s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "XML",
+					"title": "NEH grants, 1980s",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1980-1989 (flattened)",
+			"identifier": "neh-grants-1980s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1980-1989 (flattened)",
+			"issued": "2018-02-01",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1979-10-01T12:00:00Z/1989-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1980s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 1980-1989 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1980-1989 (CSV)",
+			"identifier": "neh-grants-1980s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1980-1989 (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1979-10-01T12:00:00Z/1989-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1980s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 1980-1989 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1970-1979",
+			"identifier": "neh-grants-1970s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1970-1979",
+			"issued": "2015-02-20",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1969-10-01T12:00:00Z/1979-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1970s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 1970-1979",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1970-1979 (flattened)",
+			"identifier": "neh-grants-1970s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1970-1979 (flattened)",
+			"issued": "2017-04-12",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1969-10-01T12:00:00Z/1979-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1970s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 1970-1979 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1970-1979 (CSV)",
+			"identifier": "neh-grants-1970s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1970-1979 (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1969-10-01T12:00:00Z/1979-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1970s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 1970-1979 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1965-1969",
+			"identifier": "neh-grants-1960s",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1965-1969",
+			"issued": "2015-08-31",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1965-01-01T12:00:00Z/1969-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1960s.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 1960-1969",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1965-1969 (flattened)",
+			"identifier": "neh-grants-1960s-flat",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1965-1969 (flattened)",
+			"issued": "2017-04-12",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1965-01-01T12:00:00Z/1969-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1960s_Flat.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grants, 1960-1969 (flattened)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant data, 1965-1969 (CSV)",
+			"identifier": "neh-grants-1960s-csv",
+			"description": "Grants made by the National Endowment for the Humanities, fiscal years 1965-1969 (CSV)",
+			"issued": "2015-08-31",
+			"modified": "2022-06-09",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1965-01-01T12:00:00Z/1969-09-30T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"accessURL": "https://apps.neh.gov/publicquery/",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_Grants1960s.csv",
+					"mediaType": "text/csv",
+					"format": "CSV",
+					"title": "NEH grants, 1960-1969 (CSV)",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: books",
+			"identifier": "neh-products-books",
+			"description": "Books supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: books",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: articles",
+			"identifier": "neh-products-articles",
+			"description": "Articles supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: articles",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: conference presentations",
+			"identifier": "neh-products-conference-presentations",
+			"description": "Conference presentations supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: conference presentations",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: public lectures and presentations",
+			"identifier": "neh-products-public-lectures",
+			"description": "Public lectures and presentations supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: public lectures and presentations",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: book sections",
+			"identifier": "neh-products-book-sections",
+			"description": "Book sections supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: book sections",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: web resources",
+			"identifier": "neh-products-web-resources",
+			"description": "Web resources supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: web resources",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: blog posts",
+			"identifier": "neh-products-blog-posts",
+			"description": "Blog posts supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: blog posts",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: conferences, institutes, or seminars",
+			"identifier": "neh-products-conferences",
+			"description": "Conferences, institutes, or seminars supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: conferences, institutes, or seminars",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: course or curricular materials",
+			"identifier": "neh-products-course-materials",
+			"description": "Course or curricular materials supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: course or curricular materials",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: databases, archives, or digital editions",
+			"identifier": "neh-products-database-editions",
+			"description": "Databases, archives, or digital editions supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: databases, archives, or digital editions",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: film/TV/video broadcasts or recordings",
+			"identifier": "neh-products-films-broadcasts-recordings",
+			"description": "Films, TV, or video broadcasts or recordings supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: film/TV/video broadcasts or recordings",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: exhibitions",
+			"identifier": "neh-products-exhibitions",
+			"description": "Exhibitions supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: exhibitions",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: radio/audio broadcasts or recordings",
+			"identifier": "neh-products-radio-audio",
+			"description": "Radio or audio broadcasts or recordings supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: radio/audio broadcasts or recordings",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: catalogs",
+			"identifier": "neh-products-catalogs",
+			"description": "Catalogs supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: catalogs",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: acquisition or materials collections",
+			"identifier": "neh-products-collections",
+			"description": "Acquisitions or materials collections supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: acquisitions or materials collections",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: reports",
+			"identifier": "neh-products-reports",
+			"description": "Reports supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: reports",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: staff, faculty, or fellow positions",
+			"identifier": "neh-products-positions",
+			"description": "Staff, faculty, or fellow positions supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: staff, faculty, or fellow positions",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: computer programs and software",
+			"identifier": "neh-products-computer-programs",
+			"description": "Computer programs and software supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: computer programs and software",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: games and simulations",
+			"identifier": "neh-products-games-simulations",
+			"description": "Games and simulations supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: games and simulations",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: scripts",
+			"identifier": "neh-products-scripts",
+			"description": "Scripts supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: scripts",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: centers",
+			"identifier": "neh-products-centers",
+			"description": "Centers supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: centers",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: building construction or renovation",
+			"identifier": "neh-products-buildings",
+			"description": "Building construction or renovation supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: building construction or renovation",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: equipment acquisition",
+			"identifier": "neh-products-equipment",
+			"description": "Equipment acquisition supported by NEH grants",
+			"issued": "2018-11-29",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: equipment acquisition",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH grant products: open access items",
+			"identifier": "neh-products-openaccess",
+			"description": "Open access publications supported by NEH grants",
+			"issued": "2022-12-05",
+			"modified": "2023-08-01",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P2M",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_GrantProducts.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH grant products: equipment acquisition",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_GrantProductsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"humanities grants"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"title": "NEH state council activity, 1998-2015",
+			"identifier": "neh-councils",
+			"description": "Self-reported data on NEH-funded activities of 56 state and territorial humanities councils, 1998-2015",
+			"issued": "2016-04-20",
+			"modified": "2017-04-20",
+			"language": [
+				"en-US"
+			],
+			"accessLevel": "public",
+			"accrualPeriodicity": "R/P1Y",
+			"dataQuality": true,
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Peter Losin",
+				"hasEmail": "mailto:plosin@neh.gov"
+			},
+			"describedBy": "https://apps.neh.gov/open/data/NEH_StateCouncilsDictionary.pdf",
+			"describedByType": "application/pdf",
+			"temporal": "1970-01-01T12:00:00Z/2019-12-31T23:59:59Z",
+			"keyword": [
+				"culture",
+				"history",
+				"humanities",
+				"languages",
+				"literature",
+				"philosophy",
+				"ethics",
+				"classics",
+				"religion",
+				"linguistics"
+			],
+			"landingPage": "https://apps.neh.gov/open/data",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher": {
+				"@type": "org:Organization",
+				"name": "National Endowment for the Humanities"
+			},
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"downloadURL": "https://apps.neh.gov/open/data/NEH_StateCouncils.zip",
+					"mediaType": "application/x-zip-compressed",
+					"format": "xml",
+					"title": "NEH state councils, 1998-2015",
+					"describedBy": "https://apps.neh.gov/open/data/NEH_StateCouncilsDictionary.pdf",
+					"describedByType": "application/pdf"
+				}
+			],
+			"bureauCode": [
+				"418:00"
+			],
+			"programCode": [
+				"010:000"
+			],
+			"theme": [
+				"state humanities council activity"
+			]
+		}
+	]
+}
